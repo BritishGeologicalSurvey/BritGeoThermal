@@ -1,0 +1,48 @@
+@charset "utf-8";
+ @media screen and (max-width: 799px) {
+#midCol img {
+	width: 100%;
+}
+}
+.red {color:#cf142b;}
+.blue {color:#00247d;}
+.boxed {padding:2px; border:solid 3px #00247d;}
+#header #logo {position:absolute; left:10px; top:23px;}
+#footer {
+	background-color: #7F7F7F;
+}
+#leftCol div.sectionBox {
+	background-color: #00247d;
+}
+.menuRow a:link, .menuRow a:visited {
+	color: #fff;
+}
+/* ACCORDION */
+.Accordion {
+	background-color: #D4E7F8;
+}
+h1, h2, h3, h4, h5 {
+	color: #cf142b;
+}
+/* LINKS IN ANY COLUMN */
+a:link, a:visited {
+	color: #00247d;
+}
+/* TABLES */
+.bodyTable th {
+	background-color: #9EC9A0;
+}
+/* RIGHT COLUMN */
+#rightCol div.sectionBox {
+	background-color: #efeeef;
+}
+#rightCol div.sectionHead {
+	background-color: #a081a0;
+	color: #FFFFFF;
+}
+@media screen and (min-width: 800px) {
+#header {
+	margin-bottom: 10px;
+}
+
+}
