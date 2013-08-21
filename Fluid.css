@@ -275,6 +275,7 @@ figurecaption, label, .fileSizeComment {
 	height: 80px;
 	padding: 15px;
 }
+#map {width:100%; height:600px;} 
 @media screen and (min-width: 800px) {
 body {
 	background: #aaa;
