@@ -1,13 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BritGeothermal Project | Projects</title>
+<title>BritGeothermal Project | Research</title>
 <meta name="Description" content="BritGeoThermal Project" />
 <meta name="Keywords" content="BritGeoThermal" />
 <link href="/Fluid.css" rel="stylesheet" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <meta name="HandheldFriendly" content="true" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
@@ -19,20 +20,17 @@
 		<div id="header">
 			<header><!--#include file="/header.htm"--></header>
 		</div>
-		<div id="breadCrumbs"><!--#include file="/breadcrumbs.htm"--></div>
+		<div id="breadCrumbs"><!--#include file="/breadcrumbs.htm"-->&nbsp;&raquo;&nbsp;<a href="/research/home.html">Research</a></div>
 		<div id="fullWidthCol">
-			
-						<h1><span class="blue">Brit</span><span class="red">Geothermal</span><span class="blue"> Projects</span></h1>
-<h3>Eastgate, Weardale, County Durham</h3>					
-<p>All about Eastgate</p>
-<hr color="#969696" />																	
-<h3>Science Central</h3>					
-<p>All about Science Central</p>
-<hr color="#969696" />
-
-				<br class="clear" />
-				<div class="logos"><a href="http://www.bgs.ac.uk" target="_blank"><img src="/images/logos/bgsLogo.jpg" alt="BGS logo" /></a><a href="http://www.dur.ac.uk" target="_blank"><img src="/images/logos/durhamUni.jpg" alt="Durham University logo" /></a><a href="http://www.gla.ac.uk" target="_blank"><img src="/images/logos/GlasgowUni.jpg" alt="University of Glasgow logo" /></a><a href="http://www.ncl.ac.uk" target="_blank"><img src="/images/logos/NewcastleUni.jpg" alt="Newcastle University logo" /></a></div>
-			
+			<h1><span class="blue">Brit</span><span class="red">Geothermal</span><span class="blue"> Research</span></h1>
+			<p>Explore information for deep geothermal wells at various locations on the map below by clicking on each placeholder</p>
+			<div id="map"></div>
+			<ul>
+				<li><a href="global.html">Global interests</a></li>
+				<li><a href="uk.html">UK potential</a></li>
+			</ul>
+			<br class="clear" />
+			<!--#include file="/logos.htm"-->
 		</div>
 		<div id="menu"> 
 			<!--#include file="/Menu.htm"--> 
@@ -42,5 +40,7 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="http://openlayers.org/api/OpenLayers.js"></script> 
+<script type="text/javascript" src="/js/projectMap.js"></script>
 </body>
 </html>

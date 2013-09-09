@@ -35,6 +35,7 @@ a:hover {
 img {
 	border: none;
 }
+hr {color:#969696;}
 /* HEADER */
 #header {
 	margin: 0px;
@@ -242,7 +243,7 @@ sup {
 	margin-right: 6px;
 	padding-right: 6px;
 }
-.imgBoxRight40 img, .imgBoxLeft40 img, .imgBoxRight50 img, .imgBoxLeft50 img {
+.imgBoxRight40 img, .imgBoxLeft40 img, .imgBoxRight50 img, .imgBoxLeft50 img, .imgBoxLeft30 img, .imgBoxLeft20 img {
 	width: 100%;
 	border: 0;
 	margin-bottom: 4px;
@@ -333,8 +334,12 @@ body {
 .imgBoxRight40, .imgBoxLeft40 {
 	width: 35%;
 }
+.imgBoxRight20, .imgBoxLeft20 {
+	width: 20%;
+}
 .imgBoxLeft50, .imgBoxLeft40, .imgBoxLeft30, .imgBoxLeft33, .imgBoxLeft20, .imgBoxLeft60 {
 	float: left;
+	margin-right:0.5em;
 }
 }
 @media screen and (max-width: 799px) {
