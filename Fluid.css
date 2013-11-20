@@ -44,7 +44,6 @@ hr {
 	height: 5.5em;
 	position: relative;
 }
-
 #shortcuts {
 	float: left;
 	width: 0.5em;
@@ -84,10 +83,12 @@ hr {
 	width: 7em;
 }
 .menuRow {
-	padding-left: 3em;
 	font-size: 95%;
 	margin-top: 0.2em;
 	display: inline-block;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 .menuRow a:link, .menuRow a:visited {
 	color: #fff;
@@ -149,8 +150,9 @@ p {
 }
 #header #logo {
 	position: absolute;
-	left: 0.8em;
+	left: 0.78em;
 	top: 1.8em;
+	height: 2.2em;
 }
 #fullWidthCol {
 	margin-right: 0.2em;
@@ -344,10 +346,6 @@ body {
 }
 #header {
 	height: 5em;
-}
-.menuRow {
-	float: left;
-	width: 12%;
 }
 #menu {
 	display: table;
