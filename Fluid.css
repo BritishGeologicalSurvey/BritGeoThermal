@@ -158,6 +158,11 @@ p {
 	margin-right: 0.2em;
 	clear: both;
 }
+ul {
+	margin: 0em;
+	padding: 0;
+	padding-left: 1em;
+}
 ul li {
 	margin-top: 0.1em;
 	margin-right: 1em;
@@ -350,5 +355,14 @@ body {
 #menu {
 	display: table;
 	height: 100%;
+}
+#slogan {
+	font-size: 2.5em;
+}
+#header #logo {
+	position: absolute;
+	left: 0.4em;
+	top: 0.9em;
+	height: 1.8em;
 }
 }
