@@ -277,6 +277,8 @@ figurecaption, label, .fileSizeComment {
 .logos img {
 	height: 5em;
 	padding: 1em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
 }
 #map {
 	width: 100%;
