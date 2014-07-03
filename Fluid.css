@@ -69,7 +69,6 @@ hr {
 	padding: 0.2em;
 	text-indent: 0.8em;
 	background: #fff;
-	margin-top: 1.5em;
 }
 #breadCrumbs a:link, #breadCrumbs a:visited {
 	color: #1f7ec0;
@@ -301,6 +300,9 @@ body {
 #header {
 	width: 100%;
 }
+#breadCrumbs {
+	margin-top: 1.5em;
+}
 #menu {
 	position: absolute;
 	left: 1em;
@@ -352,19 +354,19 @@ body {
 	width: 98%;
 }
 #header {
-	height: 5em;
+	height: 3em;
 }
 #menu {
 	display: table;
 	height: 100%;
 }
 #slogan {
-	font-size: 2.5em;
+	font-size: 3em;
 }
 #header #logo {
 	position: absolute;
 	left: 0.4em;
-	top: 0.9em;
-	height: 1.8em;
+	top: 1em;
+	height: 1.7em;
 }
 }
